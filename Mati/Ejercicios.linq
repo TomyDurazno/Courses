@@ -20,7 +20,7 @@ void Main()
 
 	for (int i = 1; i <= 10; i++)
 	{
-		numeros[i-1] = i;
+		numeros[i-1] = i; // i-1 porque los arrays empiezan en la posición 0
 	}
 
 	Console.WriteLine(numeros);
