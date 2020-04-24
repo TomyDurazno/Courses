@@ -2,12 +2,16 @@
 
 void Main()
 {
+	//Asignación de un booleano
 	bool verdad = true;
 	
+	//Asignación de una variable del tipo string
 	string nombre = "Juan";
 	
+	//Asignación de una letra
 	char letra = 'C';
 	
+	//Asignación de un número
 	int numero = 1;
 	
 	//If
@@ -22,6 +26,7 @@ void Main()
 		
 	}
 	
+	//Invocar una función
 	Console.WriteLine(GetNombre(nombre, 12345));
 	
 	//For loop
@@ -30,7 +35,8 @@ void Main()
 		
 	}
 	
-	string [] array = new string []{ };
+	//Array de String
+	string [] array = new string []{ "ABC", "DEF" };
 
 	//1 - Un programa que sume todos los números del 1 al 10
 
@@ -42,15 +48,15 @@ void Main()
 		numero2 = suma;
 	}
 
-	//Console.WriteLine(numero);
+	Console.WriteLine(numero2);
 
-	//2- Un Programa que guarde todos los números del 1 al 10 y los muestre
+	//2- Un Programa que guarde todas las decenas del 10 al 100 y las muestre
 
-	int[] numeros = new int[10];
+	int [] numeros = new int[10];
 
-	for (int i = 1; i <= 10; i++)
+	for (int i = 0; i < 10; i++)
 	{
-		numeros[i - 1] = i; // i-1 porque los arrays empiezan en la posición 0
+		numeros[i] = (i + 1) * 10; 
 	}
 
 	Console.WriteLine(numeros);
@@ -58,5 +64,5 @@ void Main()
 
 string GetNombre(string nom, int age)
 {	
-	return nom +age;
+	return nom + age;
 }
