@@ -1,2 +1,2 @@
 # Cursada de la TomyEscuela 
-para pequeños niños programadores
+*para pequeños niños programadores
