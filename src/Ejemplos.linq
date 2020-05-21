@@ -12,7 +12,7 @@ void Main()
 	char letra = 'C';
 	
 	//Asignación de un número
-	int numero = 1;
+	Int32 numero = 1;
 	
 	//If
 	if(verdad)
